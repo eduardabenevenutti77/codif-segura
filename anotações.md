@@ -20,3 +20,9 @@ codificação segura:
     confiabilidaade: garante que mesmo em condições erradas, o sistema atuará conforme o esperado;
 
     como escolher: depende da organização e em qual sistema será utilzado (caso do rh-server: integridade, isolamento, consistência);
+
+    recuso: físico, aquilo que precisamos proteger;
+
+    ameça: evento ou atitude indesejável;
+
+    vulnerabilidade: fraqueza ou deficência em pode torna-se uma ameaça;
