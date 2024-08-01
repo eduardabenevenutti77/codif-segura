@@ -21,8 +21,12 @@ codificação segura:
 
     como escolher: depende da organização e em qual sistema será utilzado (caso do rh-server: integridade, isolamento, consistência);
 
-    recuso: físico, aquilo que precisamos proteger;
-
-    ameça: evento ou atitude indesejável;
-
+    recurso: físico, aquilo que precisamos proteger;
+    ameaça: evento ou atitude indesejável;
+     - vazamento de informações voluntário (venda de informações pessoais entre empresas) ou involuntário (não é proposital), compromentimento de dados (violação da integridade), indisponibilidade, acesso/uso não autorizado;
     vulnerabilidade: fraqueza ou deficência em pode torna-se uma ameaça;
+    ataque: ameaça concretizada;
+     - pós ataque: mascaramento (um programa/pessoa se passa por outro), burla o sistema/log, violação autorizada (o usuário autorizado realiza atividades não autorizadas), ameaças programadas;
+    impacto: consequência do ataque;
+    probabilidade: a possibilidade de uma ameaça atacar com o sucesso o sistema computacional;
+    risco: análise do tamanho da exposição que o sistema está sujeito, depende da probabilidade;
