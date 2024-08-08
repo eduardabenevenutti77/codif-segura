@@ -30,3 +30,30 @@ codificação segura:
     impacto: consequência do ataque;
     probabilidade: a possibilidade de uma ameaça atacar com o sucesso o sistema computacional;
     risco: análise do tamanho da exposição que o sistema está sujeito, depende da probabilidade;
+
+    por que não estamos seguros? 
+    
+      1º codificação mal-feita:
+       - senha muito fácil;
+       - muita permissão para usuário;
+       - acesso aleatório na máquina;
+       - porta de serviço sem proteção;
+       - switches com usuário padrão (admin - admin);
+       
+      2º software com falha;
+       
+      3º redes desprotegidas:
+       - uso de serviço sem segurança;
+       - falha de criptografia;
+       - spoofing;
+       
+      4ª falta de atualização:
+       - atualizações não automáticas;
+       - patches de segurança podem abrir novas falhas;
+       - software muitooo antigo (windows XP);
+       
+      5º fator humano:
+       - usuário roda um cavalo de tróia;
+       - informações privilegiadas;
+       - vazamento de especificações de um produto;
+      
