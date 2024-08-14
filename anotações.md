@@ -57,3 +57,40 @@ codificação segura:
        - informações privilegiadas;
        - vazamento de especificações de um produto;
       
+ Política de Segurança: 
+  pdca: planejar, desenvolver e corrigir;
+  planejar: com base na ISO 27002
+  implementação: coloca em prática, treinamento de usuário, divulgação da PSI, definir documentação de normas;
+  avaliação e ação corretiva: valida se a seguraça está atendendo os requisitos, análise critica por meio de auditória;
+  níveis de maturidade:
+   1º - problemas de segurança de forma pontual é baseada no individuo envolvido, pouca ou nenhuma documentação
+   2º - tem política, tem plano de contorno, procedimento bem documentado e não possui monitoriamento de segurança
+   3º - segurança integrada, tem medidas corretivas, classfica conforme os requisitos de segurança, testes de segurança são frequentes, verificação de ameaças e atualizações de segurança
+   4º - segurança é vista como parte de um negócio, tudo tem uma análise de segurança e conseguimos analisar um problema antes que ele aconteça
+
+  É um documento que registra o que a empresa deseja com a segurança, detalha o que busca proteger, onde e quem é o responsável pela gestão, não deve ser estático - mudanças são necessárias!
+
+   - organização da segurança;
+   - classificação e controle de ativos;
+   - aspectos humanos;
+   - segurança do ambiente fisíco;
+   - segurança do ambiente lógico;
+   - segurança das comunicações;
+   - prevenção e tratamento de incidentes;
+   - desenvolvimento, implementação e correção de sistemas;
+   - gestão de continuidade;
+   - conformidade;
+
+   divulgação: realização de treinamento sobre a política de segurança, tão importante quanto a política, pode ser separada conforme os setores;
+   
+plano de continuidade: estratégia e planos de ação que previnem e garantem o funcionamento dos serviços, criação de normas e padrões para contornar estas situações;
+    - análise de riscos e mapeamento;
+    - análise de impactos;
+    - planejamento estratégico;
+
+    deve ter um plano de emergência (usado em últimos casos);
+    deve ter um plao de administração (define funções a serem realizadas durante o plano de emergência);
+    deve ter um plano de recuperação de desastre (prd - planejamento que controla a recuperação de dados);
+    deve ter um plano de continuidade operacional (pcd - restabelecer o funcionamento das principais funções que suportam as operações, isso reduz o tempo de queda e os impactos pelo acidente)
+
+como classificar os ativos: não há um padrão, normalmente usa a ISO 27002 como referência (contabilzar e classificar por prioridades)
