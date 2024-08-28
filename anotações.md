@@ -94,3 +94,74 @@ plano de continuidade: estratégia e planos de ação que previnem e garantem o 
     deve ter um plano de continuidade operacional (pcd - restabelecer o funcionamento das principais funções que suportam as operações, isso reduz o tempo de queda e os impactos pelo acidente)
 
 como classificar os ativos: não há um padrão, normalmente usa a ISO 27002 como referência (contabilzar e classificar por prioridades)
+
+
+---- Revisão para prova de códificação segura (28/08/2024)
+
+informação: é considerado o principal patrimônio de uma organização
+ - ponto crucial da sobrevivência da organização
+ mainframes: controle lógico centralizado
+
+ o que pode atingir uma informação: desastre natural (incêndio, terremoto ou enchente), estrutural (falha elétrica - ar condicionado), fraudes e etc (cracker ou espionagem industrial)
+
+CONCEITOS
+
+segurança: a proteção destas informações/sistemas e recursos reduzem a probabilidade e o impacto de incidentes
+
+confidencialidade: protege a informação contra o acesso de pessoa na autorizada, leitura de dados
+
+integridade: evita o apagamento ou alteração de informações sem que o usuário não libere essas ações, engloba dados - programas - documentação - registros, preocupa-se com a gravação e alteração de dados
+
+disponibilidade: protege serviços para que não sejam degradados ou tornam-se indisponíveis sem a autorização, pode ser PIOR QUE UM SISTEMA INEXISTENTE, inclue equipamentos tolerates a falhas
+
+consistência: garante que o sistema atue como é esperado
+
+isolamento ou uso legítimo: regula o acesso ao sistema, precisa ter a verificação de quem acesso, quando e no que foi mexido, há um custo de reconstrução ou recuperação
+
+auditoria: protege o sistema contra erros e atos maliciosos, identifica os autores e suas ações, uso de logs, em alguns casos podemos reverter o problema causado com o uso de auditoria, evito de eventos indesejados
+
+cofiabilidade: garante que ações adversaas o sistema irá atuar conforme o esperado
+
+DEFINIÇÕES:
+
+recursos: software, hardware, equipamentos físicos ou informação
+
+ameaças: eventos ou ações indesejáveis
+    - vazamento de informaçõe (voluntário ou involuntário), compromentimento dos dados
+    - indisponibilidade (acesso não autorizado)
+
+    pós o ataque: mascaramento, desvio de controle, violação, ameaças programadas (cavalo de tróia)
+
+vulnerabilidade: fraqueza ou deficiência que podem acontecer com uma ameaça
+
+ataque: ameaça concretizada
+
+impacto: consequência de uma vulnerabilidade
+
+probabilidade: change de uma ameaça atacar com sucesso
+
+risco: o nível de exposição a qual o sistema está sujeito, depende da probalidade de uma ameaça (vulnerabilidade, ameaça e impacto)
+
+por que não estamos seguros: configurações malfeitas, software com falhas, redes desprotegidas, fator humano
+
+config. malfeitas: senha muito fácil, permissão excessiva, máquinas que são acessadas por qualquer usuário, portas de serviços sem proteção 
+
+software com falhas: sistema operacional, calculadora, tocador de mp3
+
+redes desprotegidas: falta de criptografia, redirecionamento de tráfego e spoofing
+
+proteção ineficazes: antivírus, filtro de pacotes, proxys e firewalls
+
+falta de atualização: atualização não automáticas, patches de segurança, software muito antigos
+
+fator humano: usuário roda um cavalo de tróia, informações privilegiadas e vazamento de informações de um novo produto
+
+TERMOS:
+
+hacker: termo para invasores digitais
+hacker black-cap / cracker: roubo de senhas, documentos e etc
+engenheiro social: utiliza meios não técnicos para obter informações
+scammer: fraudador utiliza falhas para enviar sites falsos
+script kiddle: o invasor não tem conhecimento abrangente sobre os alvos, usa receita de bolos para fazer o seu ataque, o importante é quantidade e não a qualidade
+defacer: substitui a página principal de algum website
+lammer: possui pouco conhecimento e se faz passar por um 'guru de tecnologia'
