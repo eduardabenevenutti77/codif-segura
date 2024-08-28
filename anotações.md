@@ -95,7 +95,6 @@ plano de continuidade: estratégia e planos de ação que previnem e garantem o 
 
 como classificar os ativos: não há um padrão, normalmente usa a ISO 27002 como referência (contabilzar e classificar por prioridades)
 
-
 ---- Revisão para prova de códificação segura (28/08/2024)
 
 informação: é considerado o principal patrimônio de uma organização
@@ -130,7 +129,7 @@ ameaças: eventos ou ações indesejáveis
     - vazamento de informaçõe (voluntário ou involuntário), compromentimento dos dados
     - indisponibilidade (acesso não autorizado)
 
-    pós o ataque: mascaramento, desvio de controle, violação, ameaças programadas (cavalo de tróia)
+    após o ataque: mascaramento, desvio de controle, violação, ameaças programadas (cavalo de tróia)
 
 vulnerabilidade: fraqueza ou deficiência que podem acontecer com uma ameaça
 
@@ -165,3 +164,15 @@ scammer: fraudador utiliza falhas para enviar sites falsos
 script kiddle: o invasor não tem conhecimento abrangente sobre os alvos, usa receita de bolos para fazer o seu ataque, o importante é quantidade e não a qualidade
 defacer: substitui a página principal de algum website
 lammer: possui pouco conhecimento e se faz passar por um 'guru de tecnologia'
+
+---- revisão durante a aula
+
+isolamento: garante que apenas pessoas autorizadas tenham acesso apenas a parte dela, garante que uma pessoa que tenha somente a capacidade de acessar apenas um módulo não acesse outro.
+
+confidencialidade: tornar uma informação visível ou não para determinado usuário, criptografia da informação, permite que se haja um vazamento esse dados não seja exposto 
+
+se quebrar uma lei por lógica quebra as outras
+
+engenheiro social: capacidade de uma pessoa de usar emoções para realizar golpes
+
+quando usar dns seg usar junto https isso vai aumentar a segurança
